@@ -11,7 +11,7 @@ az login
 Training can be launched from a bash terminal using the command below.
 
 ```
-./run
+./run -g 'your-unique-azure-storage-account-name'
 ```
 
 You'll most likely need to specify a specific training command, for example parameters for the training code like the command below.
